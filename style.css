@@ -54,10 +54,6 @@
 }
 
 .main {
-    position: absolute;
-    left: 35%;
-    top: 10%;
-    width: 25% !important;
     background: linear-gradient(145deg,
             var(--primary),
             rgba(10, 41, 74));
@@ -65,7 +61,7 @@
 }
 
 .screen {
-    width: 100%;
+    /* width: 100%; */
     height: 15vh;
     border: 1px solid var(--cyan);
     box-shadow:
@@ -196,3 +192,4 @@ body {
     font-size: 0.6em;
     vertical-align: super;
 }
+
